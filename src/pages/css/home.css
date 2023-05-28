@@ -1,0 +1,158 @@
+
+.heading h1 , h2, h4{
+    margin: 0;
+    padding: 0;
+}
+.portfolio p, .download p{
+    color: white;
+    text-decoration: underline;
+    font-weight: 500;
+}
+@media  only screen and (min-width:480px) {
+    .banner{
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+        padding: 3% 8%;
+    }
+    .intro{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        flex: 0.5;
+    }
+    
+    .buttons{
+        margin-top: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        gap: 5%;
+    }
+    .portfolio, .download{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        width: 15vw;
+        height: 9vh;
+        background-color: #841818;
+    }
+    .banner_img{
+        display: flex;
+        flex-direction: column;
+        flex: 0.5;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .banner_img img{
+        width: 100%;
+    }
+    .aboutme{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 3%;
+        height: 100vh;
+        flex: 1;
+
+    }
+    .img{
+        height: 75vh;
+        width: fit-content;
+    }
+    .img img{
+        width: 100%;
+        height: 100%;
+    }
+    .left{
+        display: flex;
+        flex-direction: column;
+        flex: 0.5;
+        justify-content: center;
+        align-items: center;
+    }
+    .right{
+        display: flex;
+        flex-direction: column;
+        flex: 0.5;
+    }
+    .para{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .up strong, .down p{
+        white-space: normal;
+        justify-content: left;
+    }
+    
+}
+@media  only screen and (max-width:480px) {
+    .home{
+
+    }
+    .intro{
+        display: grid;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        flex: 0.5;
+    }
+    .banner{
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+        padding: 3%;
+    }
+    .portfolio, .download{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        width: 30vw;
+        height: 3vh;
+        margin-top: 10px;
+        background-color: #841818;
+    }
+    .banner_img, .img{
+        display: none;
+    }
+    .aboutme{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: fit-content;
+    }
+    .left, .right{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .para{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .up strong, .down p{
+        white-space: normal;
+        justify-content: left;
+    }
+}

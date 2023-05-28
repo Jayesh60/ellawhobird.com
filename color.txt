@@ -1,0 +1,5 @@
+#FAFAFA white
+#E0BB20 yellow
+#841818 dark red
+#000000 black 
+#fab702

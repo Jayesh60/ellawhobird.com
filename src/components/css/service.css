@@ -1,0 +1,106 @@
+.service{
+    background-color: whitesmoke;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.para{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: slategray;
+}
+
+.rm{
+    color: black;
+    font-size: 14px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+
+
+@media only screen and (max-width: 480px){
+    .text{
+        padding: 2%;
+        font-size: 12px;
+    }
+    .firstRow, .secondRow, .thirdRow, .fourthRow{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    .fCard{
+        align-items: center;
+        text-align: center;
+        border-radius: 2px;
+        height: 50vh;
+        width: 85vw;
+        margin-top: 10px;
+    }
+    .sCard{
+        align-items: center;
+        text-align: center;
+        opacity: 0.902;
+        border-radius: 2px;
+        height: 50vh;
+        width: 85vw;
+        margin-top: 5px;
+    }
+    .fCard img, .sCard img{
+        
+        width: 100%;
+        height: 100%;
+    }
+    .image{
+        display: none;
+    }
+}
+@media only screen and (min-width: 480px){
+    .text{
+        height: 25vh;
+        padding: 2%;
+    }
+    .card_wrapper{
+        padding: 2%;
+    }
+    .firstRow, .secondRow, .thirdRow, .fourthRow{
+        display: flex;
+        gap: 25px;
+        justify-content: center;
+        align-items: center;
+        margin: 2% ;
+    }
+    .fCard{
+        /* padding: 1%; */
+        align-items: center;
+        text-align: center;
+        border-radius: 2px;
+        height: 38vh;
+        width: 20vw;
+        /* border: 1px solid black; */
+    }
+    .sCard{
+        
+        align-items: center;
+        text-align: center;
+        opacity: 0.902;
+        border-radius: 2px;
+        height: 38vh;
+        width: 35vw;
+        /* border: 1px solid black; */
+    }
+    .fCard img, .sCard img{
+        width: 100%;
+        height: 100%;
+    }
+}

@@ -1,0 +1,31 @@
+/* .list-disc {
+    list-style-type: disc;
+} 
+#F9F7CF
+#F2DCBB
+*/
+.works{
+    background-color: #EEE9DA;
+}
+.heading{
+    display: flex;
+    padding: 1% 9% 0% 9%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.heading h1{
+    color: #fab702;
+    padding: 2%;
+}
+.vertical-timeline::before {
+    /* this is the vertical line */
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 18px;
+    height: 100%;
+    width: 4px;
+    background: #F2DCBB !important;
+  }

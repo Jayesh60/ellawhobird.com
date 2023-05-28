@@ -1,0 +1,18 @@
+.projectWrapper{
+    background-color: #8d8d8d;
+    height: 80vh;
+    padding: 2%;
+    padding-left: 10%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-decoration:underline ;
+    letter-spacing: 1px;
+}
+
+@media only  screen and (max-width:480px){
+    
+}
+@media only  screen and (min-width:480px){
+    
+}
