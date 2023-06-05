@@ -15,9 +15,10 @@
     }
     .about img{
         background-color: white;
-        width: 50vw;
-        height: 15vh;
-        margin-top: 10px;
+        width: 40vw;
+        height: fit-content;
+        margin: 10px;
+
     }
     .info, .links, .help{
         display: flex;
